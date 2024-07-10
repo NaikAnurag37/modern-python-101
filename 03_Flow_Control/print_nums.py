@@ -18,6 +18,7 @@ for num in range(10):
         print(num)
 
 print()
+print()
 
 # ----------------------------------------------------------------
 # Zortans are not happy, they want to see numbers on the same line
@@ -26,6 +27,7 @@ for num in range(10):
     print(num, end=" ")
 
 print()
+print()
 
 # ------------------------------------------------------------------
 # Cece doesn't like blank space, she wants an underscore `_` instead
@@ -33,8 +35,9 @@ print()
 for num in range(10):
     print(num, end="_")
 
-print()
 
+print()
+print()
 # ------------------------------------------------------------------
 
 """
@@ -46,5 +49,12 @@ instead of the current output "0_1_2_3_4_5_6_7_8_9_"
 
 Tip - Use If/Else block
 """
+for num in range(10):
+    if num == 9:
+        print(num, end=" ")
+    else:
+        print(num, end="_")
+
+print()
 
 # ------------------------------------------------------------------

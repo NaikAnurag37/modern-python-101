@@ -11,7 +11,7 @@ Always Visualize First, Then Start Coding.
 # Variable Declaration
 # -----------------------------------------------
 
-customer: str = "Cece"
+customer: str = "Josh"
 pizza_base: str = "Thin"
 pizza_size: int = 12
 topping: str = "Olives"
